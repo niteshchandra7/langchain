@@ -26,3 +26,27 @@ prompt_template = PromptTemplate.from_template(
 
 # Using the template
 prompt_template.invoke({"topic": "cats"})
+
+## 🔗 LangChain Chain Workflow  
+
+The step-by-step process of how LangChain handles a query:  
+
+1. **📝 User Query** → Raw question or request from the user  
+2. **📌 Prompt Template** → Formats the query into a structured prompt  
+3. **🤖 Language Model** → Generates a response  
+4. **🧩 Output Parser** → Parses LLM output into structured data  
+5. **🌐 External API / Tool Call** → Calls external services if needed  
+6. **🔁 Final LLM Call** → Processes API responses  
+7. **✅**
+## 🔗 LangChain Chain Workflow  
+
+The step-by-step process of how LangChain handles a query:  
+
+1. **📝 User Query** → Raw question or request from the user  
+2. **📌 Prompt Template** → Formats the query into a structured prompt  
+3. **🤖 Language Model** → Generates a response  
+4. **🧩 Output Parser** → Parses LLM output into structured data  
+5. **🌐 External API / Tool Call** → Calls external services if needed  
+6. **🔁 Final LLM Call** → Processes API responses  
+7. **✅**
+
