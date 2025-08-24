@@ -39,6 +39,5 @@ The step-by-step process of how LangChain handles a query:
 5. **🌐 External API / Tool Call** → Calls external services if needed  
 6. **🔁 Final LLM Call** → Processes API responses  
 7. **✅**
-## 🔗 LangChain Chain Workflow  
 
 
