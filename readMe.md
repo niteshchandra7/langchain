@@ -17,6 +17,7 @@ They **guide the model’s response**, providing structure so the output is rele
 
 ## 📝 String Prompt Templates  
 
+### uv add langchain langchain-openai langchain-tavily python-dotenv isort black
 ```python
 from langchain_core.prompts import PromptTemplate
 
@@ -38,6 +39,11 @@ The step-by-step process of how LangChain handles a query:
 4. **🧩 Output Parser** → Parses LLM output into structured data  
 5. **🌐 External API / Tool Call** → Calls external services if needed  
 6. **🔁 Final LLM Call** → Processes API responses  
-7. **✅**
+
+## 📌 AI Agents - ReAct Architecture
+
+1. ** LangChain ReAct Agent** → ReAct Prompt
+2. ** Tool Calling Agent** → Function Calling
+3. ** LangGraph ReAct Agent** → Function Calling
 
 
